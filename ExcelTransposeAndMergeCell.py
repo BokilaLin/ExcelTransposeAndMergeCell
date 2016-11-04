@@ -1,11 +1,17 @@
 
 # coding: utf-8
 
-# In[141]:
+# In[153]:
 
 import pandas as pd
 import numpy as np
 import itertools
+from IPython.core.display import Image 
+
+
+# In[157]:
+
+Image(filename='original.png')
 
 
 # In[142]:
@@ -99,6 +105,11 @@ for start, end in c:
 # In[150]:
 
 writer.save()
+
+
+# In[159]:
+
+Image(filename='result.png')
 
 
 # In[ ]:
